@@ -1,0 +1,32 @@
+
+Data Manipulation
+
+1. Grab training and test data sets (D.S.)
+2. Pull targets from D.S.
+3. Normalize D.S.
+4. Determine hyper-parameters
+    1. N = hidden units (20, 50, 100 for experiment #1)
+    2. M = momentum (0, 0.25, and 0.5 for experiment #2)
+    3. Learning rate = 0.1
+    4. Momentum = 0.9 unless specified otherwise
+5. Add bias column of ones to training D.S.
+6. Create weight matrix for input-hidden layer including bias. Set random weights between -0.5 and 0.5
+7. Create weight matrix for hidden-output layer like in step 6.
+8. I believe you need to make duplicate weight matrices for both the layers setting all the elements to 0 so you can use the previous weight in when calculating the backprop.
+9. Create array for storing the hidden layer neurons as well as an array to store the output neurons.
+
+Forward-Phase
+
+1. Find the dot product of each hidden layer neuron using each pixel in observation and corresponding weights. Store in hidden neuron array.
+2. Run the sigmoid function on each hidden neuron.
+3. Find the dot product of each of each output using each hidden neuron and corresponding weights. Store in output neuron array.
+4. Run the sigmoid function on each output neuron.
+5. Run the Softmax Function on each output neuron
+
+Backward Propagate
+
+1. Determine error for each output neuron (function?)
+2. Determine error for each hidden neuron (function?)
+3. Update hidden-output weights (newWeight = weight+(LearningRate*outputError*inputNeuron)+(momentum*prevWeightDelta)
+4. Update input-hidden weights (newWeight = weight+(LearningRate*outputError*inputNeuron)+(momentum*prevWeightDelta)
+
