@@ -113,7 +113,7 @@ class NeuralNetwork:
 
     def train(self, iterations, confmatrix=False):
 
-        for epoch in range(0, iterations+1):
+        for epoch in range(0, iterations):
             print("epoch: ", epoch)
             # Arrays to hold counts of correct predictions
             # Each index refers to an epoch
