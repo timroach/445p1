@@ -1,6 +1,7 @@
 import numpy as np
 import sys
 import idx2numpy
+import math
 
 
 def sigmoid(x):
@@ -9,7 +10,7 @@ def sigmoid(x):
 
 class NeuralNetwork:
 
-    def __init__(self, hiddenLayers, momentum, learningRate):
+    def __init__(self, hiddenLayers, momentum, learningRate, trainpercentage=1.0):
     
         # set up hyperParameters
         self.hidden = hiddenLayers
@@ -36,8 +37,9 @@ class NeuralNetwork:
         # Convert from (1xm) to (mx1) array
         # self.testingLabels = np.reshape(self.trainingLabels, (-1, 1))
 
+        # Total number of training examples in training set
         self.numTrainingImages = self.trainingImagesRaw.shape[0]
-        self.numTrainingInputs = self.trainingImagesRaw.shape[1] * self.trainingImagesRaw.shape[2]
+        self.numTestingImages = self.testingImagesRaw.shape[0]
         
         # Array of training targets - for each label, target array has a row
         # where row[label] = .9, all others = .1
@@ -49,9 +51,9 @@ class NeuralNetwork:
 
         # Array of testing targets - for each label, target array has a row
         # where row[label] = .9, all others = .1
-        self.testingTargets = np.ndarray((self.testingLabels.shape[0], self.numOutputs))
-        np.ndarray.fill(self.testingTargets, 0.1)
-        for index, row in enumerate(self.testingTargets):
+        self.testTargets = np.ndarray((self.testingLabels.shape[0], self.numOutputs))
+        np.ndarray.fill(self.testTargets, 0.1)
+        for index, row in enumerate(self.testTargets):
             label = self.testingLabels[index]
             row[label] = 0.9
 
@@ -80,6 +82,12 @@ class NeuralNetwork:
         self.trainingInputs = np.append(self.trainingInputs, bias, 1)
         testBias = np.ones((10000,1))
         self.testInputs = np.append(self.testInputs, testBias, 1)
+
+        # Trim training set if trainingpercentage option < 1
+        # and training set larger than 2 rows
+        if trainpercentage < 1.0 and self.trainingInputs.shape[0] > 1:
+            newrowcount = math.floor(trainpercentage * self.trainingInputs.shape[0])
+            np.delete(self.trainingInputs, [0, newrowcount], 0)
         
         # create two  2-d arrays of random weights for connections from 
         # the inputs to  the hidden layer. Weight ranges are chosen to 
@@ -95,10 +103,22 @@ class NeuralNetwork:
         self.hiddenDelta = np.zeros((self.hidden + 1, 785))
         self.outputDelta = np.zeros((self.hidden + 1, 10))
 
-    def train(self, iterations):
+    # Run the Neural Network forwards on the supplied input array
+    # Each row of the input array is one complete input to the network
+    def runforward(self, inputs):
+        train = np.dot(inputs, self.hiddenWeights)
+        train = sigmoid(train)
+        train = np.dot(train, self.outputWeights)
+        return sigmoid(train)
+
+    def train(self, iterations, confmatrix=False):
+
         for epoch in range(0, iterations+1):
             print("epoch: ", epoch)
-            correct = np.zeros(50)
+            # Arrays to hold counts of correct predictions
+            # Each index refers to an epoch
+            traincorrect = np.zeros(iterations)
+            testcorrect = np.zeros(iterations)
             for row, _ in enumerate(self.trainingInputs):
                 # dot product observation with set of weights
                 # for each hidden neuron
@@ -152,30 +172,35 @@ class NeuralNetwork:
                 self.hiddenDelta = np.add(self.hiddenDelta, mom)
                 self.hiddenWeights = np.add(self.hiddenWeights, np.transpose(self.hiddenDelta))
 
-            train = np.dot(self.trainingInputs, self.hiddenWeights)
-            train = sigmoid(train)
-            train = np.dot(train, self.outputWeights)
-            train = sigmoid(train)
-    
+            trainingResults = self.runforward(self.trainingInputs)
+
+            # Calculate and print accuracy percentage on training input set
             for row, _ in enumerate(self.trainingInputs):
-                if np.argmax(self.trainingTargets[row]) == np.argmax(train[row]):
-                    correct[epoch] += 1
-            print("percent correct for epoch[", epoch, "]: ", correct[epoch]/60000)
+                if np.argmax(self.trainingTargets[row]) == np.argmax(trainingResults[row]):
+                    traincorrect[epoch] += 1
+            print("Training set accuracy: ", traincorrect[epoch]/self.numTrainingImages)
+
+            testingResults = self.runforward(self.testInputs)
+
+            # Calculate and print accuracy percentage on test input set
+            for row, _ in enumerate(self.testInputs):
+                if np.argmax(self.testTargets[row]) == np.argmax(testingResults[row]):
+                    testcorrect[epoch] += 1
+            print("Test set accuracy: ", testcorrect[epoch]/self.numTestingImages)
     
-        train = np.dot(self.trainingInputs, self.hiddenWeights)
-        train = sigmoid(train)
-        train = np.dot(train, self.outputWeights)
-        train = sigmoid(train)
+        finalresults = self.runforward(self.trainingInputs)
 
-        conMatrix = np.zeros((10, 10), dtype=int)
-        correct = 0
-        for row in range(0, 60000):
-            conMatrix[np.argmax(self.trainingTargets[row])][np.argmax(train[row])] += 1
-            if np.argmax(self.trainingTargets[row]) == np.argmax(train[row]):
-                correct += 1
+        if confmatrix:
+            # Print confusion matrix
+            conMatrix = np.zeros((10, 10), dtype=int)
+            correct = 0
+            for row, _ in enumerate(self.trainingInputs):
+                conMatrix[np.argmax(self.trainingTargets[row])][np.argmax(finalresults[row])] += 1
+                if np.argmax(self.trainingTargets[row]) == np.argmax(finalresults[row]):
+                    correct += 1
 
-        print("percent correct: ", correct/60000)
-        print("Confusion Matrix\n", conMatrix)
+            print("percent correct: ", correct/self.numTrainingImages)
+            print("Confusion Matrix\n", conMatrix)
 
 
 def main():
@@ -183,10 +208,37 @@ def main():
     # Initialize new Multi Layer Perceptron
     # with 100 hidden layers, momentum of 0.9,
     # and a learning rate of 0.1
-    mlp = NeuralNetwork(100, 0.9, 0.1)
+    # mlp = NeuralNetwork(100, 0.9, 0.1)
+
     # Train for 10 epochs and print report
     # including confusion matrix and accuracy
-    mlp.train(10)
+    # mlp.train(10, confmatrix=True)
+
+    # Experiment 1: experiments with 20, 50,
+    # and 100 hidden units for 50 epochs each
+    print("Experiment 1:")
+    for hidden in [20, 50, 100]:
+        print(str(hidden) + " hidden units")
+        network = NeuralNetwork(hidden, 0.9, 0.1)
+        network.train(50, confmatrix=True)
+
+    # Experiment 2: experiments with 100 hidden
+    # units, momentum values of 0, 0.25, 0.5
+    print("Experiment 2:")
+    for momentum in [0, 0.25, 0.5]:
+        print("Momentum = " + str(momentum))
+        network = NeuralNetwork(100, momentum, 0.1)
+        network.train(50, confmatrix=True)
+
+    # Experiment 3: experiments with 100 hidden
+    # units, 0.9 momentum, and training set fractions
+    # of 0.25 and 0.5
+    print("Experiment 3")
+    for percentage in [0.25, 0.5]:
+        print("Using " + str(percentage * 100) + "% of training data")
+        network = NeuralNetwork(100, 0.9, 0.1, percentage)
+        network.train(50, confmatrix=True)
+
     sys.exit("Done")
 
 
