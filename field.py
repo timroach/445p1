@@ -4,7 +4,7 @@ def sigmoid(x):
     return 1/(1+np.exp(-x))
 
 #set up hyperParameters
-hidden = 20 
+hidden = 100
 momentum = 0.9
 learningRate = 0.1
 
@@ -108,12 +108,17 @@ for epoch in range(0, 10):
 
         #find weight update (hidden-output) delta and store in array for momentum
         #1. calculate momentum
+
     #    print("outputDelta shape: ", outputDelta.shape)
+
+
         mom = np.multiply(outputDelta, momentum) 
     #    print("outputDelta shape: ", outputDelta.shape)
         outputDelta.fill(learningRate)
     #    print("outputDelta shape: ", outputDelta.shape)
     #    print("outErr.shape: ", outputError.shape)
+
+        # (alpha * previous run's output delta) this is all 0s first run
         outputDelta = np.multiply(outputDelta, outputError)
     #    print("outputDelta shape: ", outputDelta.shape)
         #outputDelta = np.transpose(outputDelta)

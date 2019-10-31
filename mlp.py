@@ -68,31 +68,32 @@ for epoch in range(0, 50):
     print("epoch: ", epoch)
     correct = np.zeros(50)
     for row in range(0,60000):
-    #    print("inputs shape: ", inputs.shape)
-    #    print("hiddenWeight shape: ", hiddenWeight.shape)
-        #dot product observation with set of weights for each hidden neuron
+        # print("inputs shape: ", inputs.shape)
+        # print("hiddenWeight shape: ", hiddenWeight.shape)
+        # dot product observation with set of weights for each hidden neuron
+        inputvector = inputs[row]
         hiddenVector = np.dot(inputs[row], hiddenWeight)
 
-    #    print("hiddenVector shape: ", hiddenVector.shape)
+        # print("hiddenVector shape: ", hiddenVector.shape)
         
-        #run sigmoid function on hidden neuron vector
+        # run sigmoid function on hidden neuron vector
         hiddenVector = sigmoid(hiddenVector)
         
-    #    print("outputWeight shape: ", outputWeight.shape)
+        # print("outputWeight shape: ", outputWeight.shape)
 
-        #dot product hidden neurons with set of weights for each output neuron
+        # dot product hidden neurons with set of weights for each output neuron
         outputVector = np.dot(hiddenVector, outputWeight)    
 
-    #    print("outputVector shape: ", outputVector.shape)
+        # print("outputVector shape: ", outputVector.shape)
         
-        #run sigmoid function on hidden neuron vector
+        # run sigmoid function on hidden neuron vector
         outputVector = sigmoid(outputVector)
         
-        #calculate error on output vector
-        #value * (1 - value) * (target - value)
-        outputError = np.add(outputVector, -1)  #not sure if this is the correct syntax
-        #print("outputVector: ", outputVector)
-        #print("outputError: ", outputError)
+        # calculate error on output vector
+        # value * (1 - value) * (target - value)
+        outputError = np.add(outputVector, -1)  # not sure if this is the correct syntax (it's not)
+        # print("outputVector: ", outputVector)
+        # print("outputError: ", outputError)
         outputError = np.multiply(outputError, outputVector)
         subError = np.subtract(targets[row], outputVector)
         outputError = np.multiply(outputError, subError)
