@@ -1,0 +1,1307 @@
+Experiment 1:
+20 hidden units
+epoch:  0
+Training set accuracy:  0.9055833333333333
+Test set accuracy:  0.9062
+epoch:  1
+Training set accuracy:  0.9177833333333333
+Test set accuracy:  0.9158
+epoch:  2
+Training set accuracy:  0.9270833333333334
+Test set accuracy:  0.9228
+epoch:  3
+Training set accuracy:  0.9352
+Test set accuracy:  0.9279
+epoch:  4
+Training set accuracy:  0.93655
+Test set accuracy:  0.927
+epoch:  5
+Training set accuracy:  0.9364
+Test set accuracy:  0.929
+epoch:  6
+Training set accuracy:  0.9312833333333334
+Test set accuracy:  0.9259
+epoch:  7
+Training set accuracy:  0.9383333333333334
+Test set accuracy:  0.9272
+epoch:  8
+Training set accuracy:  0.9384833333333333
+Test set accuracy:  0.929
+epoch:  9
+Training set accuracy:  0.9393
+Test set accuracy:  0.928
+epoch:  10
+Training set accuracy:  0.9400333333333334
+Test set accuracy:  0.9293
+epoch:  11
+Training set accuracy:  0.9393666666666667
+Test set accuracy:  0.9303
+epoch:  12
+Training set accuracy:  0.9395166666666667
+Test set accuracy:  0.9287
+epoch:  13
+Training set accuracy:  0.9406833333333333
+Test set accuracy:  0.93
+epoch:  14
+Training set accuracy:  0.9420333333333333
+Test set accuracy:  0.9313
+epoch:  15
+Training set accuracy:  0.9405333333333333
+Test set accuracy:  0.9315
+epoch:  16
+Training set accuracy:  0.9432
+Test set accuracy:  0.9326
+epoch:  17
+Training set accuracy:  0.94135
+Test set accuracy:  0.9297
+epoch:  18
+Training set accuracy:  0.9443666666666667
+Test set accuracy:  0.9325
+epoch:  19
+Training set accuracy:  0.9435166666666667
+Test set accuracy:  0.9309
+epoch:  20
+Training set accuracy:  0.9436833333333333
+Test set accuracy:  0.9325
+epoch:  21
+Training set accuracy:  0.9451666666666667
+Test set accuracy:  0.9328
+epoch:  22
+Training set accuracy:  0.945
+Test set accuracy:  0.9322
+epoch:  23
+Training set accuracy:  0.94495
+Test set accuracy:  0.9315
+epoch:  24
+Training set accuracy:  0.9443333333333334
+Test set accuracy:  0.9325
+epoch:  25
+Training set accuracy:  0.9432166666666667
+Test set accuracy:  0.931
+epoch:  26
+Training set accuracy:  0.9470333333333333
+Test set accuracy:  0.9318
+epoch:  27
+Training set accuracy:  0.9460833333333334
+Test set accuracy:  0.9323
+epoch:  28
+Training set accuracy:  0.9472
+Test set accuracy:  0.9317
+epoch:  29
+Training set accuracy:  0.94715
+Test set accuracy:  0.9319
+epoch:  30
+Training set accuracy:  0.9401
+Test set accuracy:  0.926
+epoch:  31
+Training set accuracy:  0.9461166666666667
+Test set accuracy:  0.9314
+epoch:  32
+Training set accuracy:  0.9423666666666667
+Test set accuracy:  0.9299
+epoch:  33
+Training set accuracy:  0.9460333333333333
+Test set accuracy:  0.9316
+epoch:  34
+Training set accuracy:  0.9454166666666667
+Test set accuracy:  0.9307
+epoch:  35
+Training set accuracy:  0.9432333333333334
+Test set accuracy:  0.9284
+epoch:  36
+Training set accuracy:  0.9473166666666667
+Test set accuracy:  0.9328
+epoch:  37
+Training set accuracy:  0.9472
+Test set accuracy:  0.9334
+epoch:  38
+Training set accuracy:  0.94855
+Test set accuracy:  0.9338
+epoch:  39
+Training set accuracy:  0.9488666666666666
+Test set accuracy:  0.9337
+epoch:  40
+Training set accuracy:  0.9465166666666667
+Test set accuracy:  0.931
+epoch:  41
+Training set accuracy:  0.9490666666666666
+Test set accuracy:  0.9345
+epoch:  42
+Training set accuracy:  0.9473333333333334
+Test set accuracy:  0.9329
+epoch:  43
+Training set accuracy:  0.9472
+Test set accuracy:  0.9323
+epoch:  44
+Training set accuracy:  0.9485333333333333
+Test set accuracy:  0.9328
+epoch:  45
+Training set accuracy:  0.9473166666666667
+Test set accuracy:  0.9312
+epoch:  46
+Training set accuracy:  0.9479666666666666
+Test set accuracy:  0.9322
+epoch:  47
+Training set accuracy:  0.9468833333333333
+Test set accuracy:  0.932
+epoch:  48
+Training set accuracy:  0.9472
+Test set accuracy:  0.9317
+epoch:  49
+Training set accuracy:  0.9480333333333333
+Test set accuracy:  0.9305
+percent correct:  0.9480333333333333
+Confusion Matrix
+ [[5754    0    8    1    8    5   33    2   47   65]
+ [   3 6589   36   14    4   22    8    7   35   24]
+ [  21   37 5630   19   20    7   48   44   53   79]
+ [   9   17  131 5647    2  105   19   43   68   90]
+ [   9   22   10    4 5186    1   98   19   17  476]
+ [  25   19   28   46   11 5082   66   15   59   70]
+ [  28   14   10    0   14   33 5760    1   45   13]
+ [  17   22   50    9   27    2    1 5960   19  158]
+ [  24   91   28   29    9   23   31    9 5537   70]
+ [  20   10    1   39   31   25    5   49   32 5737]]
+50 hidden units
+epoch:  0
+Training set accuracy:  0.9450166666666666
+Test set accuracy:  0.9399
+epoch:  1
+Training set accuracy:  0.9535833333333333
+Test set accuracy:  0.9443
+epoch:  2
+Training set accuracy:  0.9583
+Test set accuracy:  0.948
+epoch:  3
+Training set accuracy:  0.96125
+Test set accuracy:  0.9497
+epoch:  4
+Training set accuracy:  0.9648
+Test set accuracy:  0.9527
+epoch:  5
+Training set accuracy:  0.9667166666666667
+Test set accuracy:  0.9526
+epoch:  6
+Training set accuracy:  0.9649833333333333
+Test set accuracy:  0.9521
+epoch:  7
+Training set accuracy:  0.96915
+Test set accuracy:  0.9551
+epoch:  8
+Training set accuracy:  0.9691166666666666
+Test set accuracy:  0.9546
+epoch:  9
+Training set accuracy:  0.97145
+Test set accuracy:  0.9559
+epoch:  10
+Training set accuracy:  0.9697833333333333
+Test set accuracy:  0.955
+epoch:  11
+Training set accuracy:  0.9723
+Test set accuracy:  0.9554
+epoch:  12
+Training set accuracy:  0.9717
+Test set accuracy:  0.955
+epoch:  13
+Training set accuracy:  0.9735166666666667
+Test set accuracy:  0.9568
+epoch:  14
+Training set accuracy:  0.9746
+Test set accuracy:  0.956
+epoch:  15
+Training set accuracy:  0.9739166666666667
+Test set accuracy:  0.955
+epoch:  16
+Training set accuracy:  0.9752
+Test set accuracy:  0.9553
+epoch:  17
+Training set accuracy:  0.9738166666666667
+Test set accuracy:  0.9535
+epoch:  18
+Training set accuracy:  0.9743833333333334
+Test set accuracy:  0.9534
+epoch:  19
+Training set accuracy:  0.9758
+Test set accuracy:  0.9556
+epoch:  20
+Training set accuracy:  0.9762833333333333
+Test set accuracy:  0.9546
+epoch:  21
+Training set accuracy:  0.9772333333333333
+Test set accuracy:  0.9557
+epoch:  22
+Training set accuracy:  0.9775
+Test set accuracy:  0.9552
+epoch:  23
+Training set accuracy:  0.9771333333333333
+Test set accuracy:  0.9551
+epoch:  24
+Training set accuracy:  0.97645
+Test set accuracy:  0.9539
+epoch:  25
+Training set accuracy:  0.9788666666666667
+Test set accuracy:  0.9568
+epoch:  26
+Training set accuracy:  0.9765333333333334
+Test set accuracy:  0.9537
+epoch:  27
+Training set accuracy:  0.97855
+Test set accuracy:  0.9552
+epoch:  28
+Training set accuracy:  0.97885
+Test set accuracy:  0.9548
+epoch:  29
+Training set accuracy:  0.9767833333333333
+Test set accuracy:  0.9528
+epoch:  30
+Training set accuracy:  0.9795833333333334
+Test set accuracy:  0.9552
+epoch:  31
+Training set accuracy:  0.9796666666666667
+Test set accuracy:  0.9542
+epoch:  32
+Training set accuracy:  0.98
+Test set accuracy:  0.9542
+epoch:  33
+Training set accuracy:  0.9798
+Test set accuracy:  0.9538
+epoch:  34
+Training set accuracy:  0.9801666666666666
+Test set accuracy:  0.9538
+epoch:  35
+Training set accuracy:  0.9782333333333333
+Test set accuracy:  0.9533
+epoch:  36
+Training set accuracy:  0.98065
+Test set accuracy:  0.9531
+epoch:  37
+Training set accuracy:  0.9810333333333333
+Test set accuracy:  0.9542
+epoch:  38
+Training set accuracy:  0.9806166666666667
+Test set accuracy:  0.9537
+epoch:  39
+Training set accuracy:  0.98105
+Test set accuracy:  0.9522
+epoch:  40
+Training set accuracy:  0.9822833333333333
+Test set accuracy:  0.9537
+epoch:  41
+Training set accuracy:  0.9812
+Test set accuracy:  0.9539
+epoch:  42
+Training set accuracy:  0.9819
+Test set accuracy:  0.9533
+epoch:  43
+Training set accuracy:  0.98195
+Test set accuracy:  0.9537
+epoch:  44
+Training set accuracy:  0.9820333333333333
+Test set accuracy:  0.9536
+epoch:  45
+Training set accuracy:  0.98195
+Test set accuracy:  0.9531
+epoch:  46
+Training set accuracy:  0.9809166666666667
+Test set accuracy:  0.9533
+epoch:  47
+Training set accuracy:  0.98205
+Test set accuracy:  0.9533
+epoch:  48
+Training set accuracy:  0.9828333333333333
+Test set accuracy:  0.9534
+epoch:  49
+Training set accuracy:  0.9817
+Test set accuracy:  0.9528
+percent correct:  0.9817
+Confusion Matrix
+ [[5865    0   11   11    3    3   11    2    9    8]
+ [   1 6661   23   14    5    4    5   14    7    8]
+ [   9   24 5880    7    6    3    3   15    2    9]
+ [   9   14   21 5956    4   30    2   27   28   40]
+ [   5   19    7    3 5749    1   11    1    1   45]
+ [   7   15    5   31    3 5326   15    2    6   11]
+ [  15   15   17    5    6   26 5818    2   14    0]
+ [   3   22   18    5    3    0    3 6168    3   40]
+ [  22   39   15   24    6   37   15   16 5622   55]
+ [  16    5    7   23    6   18    0   14    3 5857]]
+100 hidden units
+epoch:  0
+Training set accuracy:  0.9601833333333334
+Test set accuracy:  0.9541
+epoch:  1
+Training set accuracy:  0.9679
+Test set accuracy:  0.9587
+epoch:  2
+Training set accuracy:  0.9745166666666667
+Test set accuracy:  0.9631
+epoch:  3
+Training set accuracy:  0.9771333333333333
+Test set accuracy:  0.9653
+epoch:  4
+Training set accuracy:  0.9807166666666667
+Test set accuracy:  0.9688
+epoch:  5
+Training set accuracy:  0.9825333333333334
+Test set accuracy:  0.9705
+epoch:  6
+Training set accuracy:  0.9836166666666667
+Test set accuracy:  0.9708
+epoch:  7
+Training set accuracy:  0.9844833333333334
+Test set accuracy:  0.9705
+epoch:  8
+Training set accuracy:  0.9845833333333334
+Test set accuracy:  0.9694
+epoch:  9
+Training set accuracy:  0.9855166666666667
+Test set accuracy:  0.9696
+epoch:  10
+Training set accuracy:  0.9861666666666666
+Test set accuracy:  0.9692
+epoch:  11
+Training set accuracy:  0.98745
+Test set accuracy:  0.9694
+epoch:  12
+Training set accuracy:  0.9876833333333334
+Test set accuracy:  0.9688
+epoch:  13
+Training set accuracy:  0.98805
+Test set accuracy:  0.9681
+epoch:  14
+Training set accuracy:  0.9886333333333334
+Test set accuracy:  0.969
+epoch:  15
+Training set accuracy:  0.9887833333333333
+Test set accuracy:  0.969
+epoch:  16
+Training set accuracy:  0.9892666666666666
+Test set accuracy:  0.9686
+epoch:  17
+Training set accuracy:  0.9894666666666667
+Test set accuracy:  0.9688
+epoch:  18
+Training set accuracy:  0.9894
+Test set accuracy:  0.9681
+epoch:  19
+Training set accuracy:  0.9897833333333333
+Test set accuracy:  0.9683
+epoch:  20
+Training set accuracy:  0.99055
+Test set accuracy:  0.9688
+epoch:  21
+Training set accuracy:  0.9906166666666667
+Test set accuracy:  0.9679
+epoch:  22
+Training set accuracy:  0.9908
+Test set accuracy:  0.9676
+epoch:  23
+Training set accuracy:  0.9904666666666667
+Test set accuracy:  0.9679
+epoch:  24
+Training set accuracy:  0.9906333333333334
+Test set accuracy:  0.9678
+epoch:  25
+Training set accuracy:  0.9906666666666667
+Test set accuracy:  0.9676
+epoch:  26
+Training set accuracy:  0.9906833333333334
+Test set accuracy:  0.9678
+epoch:  27
+Training set accuracy:  0.9907166666666667
+Test set accuracy:  0.9677
+epoch:  28
+Training set accuracy:  0.9913
+Test set accuracy:  0.9675
+epoch:  29
+Training set accuracy:  0.9914166666666666
+Test set accuracy:  0.9677
+epoch:  30
+Training set accuracy:  0.9916666666666667
+Test set accuracy:  0.9683
+epoch:  31
+Training set accuracy:  0.9919166666666667
+Test set accuracy:  0.9677
+epoch:  32
+Training set accuracy:  0.99165
+Test set accuracy:  0.9659
+epoch:  33
+Training set accuracy:  0.9917666666666667
+Test set accuracy:  0.9662
+epoch:  34
+Training set accuracy:  0.9920166666666667
+Test set accuracy:  0.9654
+epoch:  35
+Training set accuracy:  0.9922333333333333
+Test set accuracy:  0.9655
+epoch:  36
+Training set accuracy:  0.9921166666666666
+Test set accuracy:  0.9665
+epoch:  37
+Training set accuracy:  0.9923333333333333
+Test set accuracy:  0.9667
+epoch:  38
+Training set accuracy:  0.99245
+Test set accuracy:  0.9665
+epoch:  39
+Training set accuracy:  0.9924833333333334
+Test set accuracy:  0.9665
+epoch:  40
+Training set accuracy:  0.9927833333333334
+Test set accuracy:  0.9667
+epoch:  41
+Training set accuracy:  0.9928333333333333
+Test set accuracy:  0.9659
+epoch:  42
+Training set accuracy:  0.9929
+Test set accuracy:  0.9657
+epoch:  43
+Training set accuracy:  0.9930333333333333
+Test set accuracy:  0.9654
+epoch:  44
+Training set accuracy:  0.9933
+Test set accuracy:  0.9654
+epoch:  45
+Training set accuracy:  0.9932666666666666
+Test set accuracy:  0.9651
+epoch:  46
+Training set accuracy:  0.9933333333333333
+Test set accuracy:  0.9656
+epoch:  47
+Training set accuracy:  0.9935
+Test set accuracy:  0.9658
+epoch:  48
+Training set accuracy:  0.9935166666666667
+Test set accuracy:  0.966
+epoch:  49
+Training set accuracy:  0.9933666666666666
+Test set accuracy:  0.9654
+percent correct:  0.9933666666666666
+Confusion Matrix
+ [[5903    0    3    1    2    0    3    0    7    4]
+ [   3 6714   11    3    1    0    0    2    6    2]
+ [   5    1 5936    2    1    0    0    4    4    5]
+ [   2    0   13 6082    1    5    1    2    5   20]
+ [   5    1    8    0 5796    0    2    0    0   30]
+ [   6    3    2   10    0 5365   24    0    3    8]
+ [  11    0    0    0    0   19 5884    0    3    1]
+ [   1    4    6    3    2    0    0 6233    1   15]
+ [  10   10    4    5    5   11    4    0 5779   23]
+ [   8    2    2   14    2    4    0    3    4 5910]]
+Experiment 2:
+Momentum = 0
+epoch:  0
+Training set accuracy:  0.9387666666666666
+Test set accuracy:  0.9393
+epoch:  1
+Training set accuracy:  0.9602666666666667
+Test set accuracy:  0.9577
+epoch:  2
+Training set accuracy:  0.9688333333333333
+Test set accuracy:  0.9645
+epoch:  3
+Training set accuracy:  0.97295
+Test set accuracy:  0.9694
+epoch:  4
+Training set accuracy:  0.9758166666666667
+Test set accuracy:  0.9715
+epoch:  5
+Training set accuracy:  0.9781333333333333
+Test set accuracy:  0.9727
+epoch:  6
+Training set accuracy:  0.9797833333333333
+Test set accuracy:  0.9737
+epoch:  7
+Training set accuracy:  0.9812333333333333
+Test set accuracy:  0.9736
+epoch:  8
+Training set accuracy:  0.9823
+Test set accuracy:  0.9748
+epoch:  9
+Training set accuracy:  0.9833
+Test set accuracy:  0.9758
+epoch:  10
+Training set accuracy:  0.9842333333333333
+Test set accuracy:  0.9765
+epoch:  11
+Training set accuracy:  0.985
+Test set accuracy:  0.977
+epoch:  12
+Training set accuracy:  0.9859166666666667
+Test set accuracy:  0.9776
+epoch:  13
+Training set accuracy:  0.9865
+Test set accuracy:  0.9774
+epoch:  14
+Training set accuracy:  0.9870666666666666
+Test set accuracy:  0.9775
+epoch:  15
+Training set accuracy:  0.9878
+Test set accuracy:  0.9774
+epoch:  16
+Training set accuracy:  0.9882
+Test set accuracy:  0.9775
+epoch:  17
+Training set accuracy:  0.9886666666666667
+Test set accuracy:  0.9775
+epoch:  18
+Training set accuracy:  0.9890666666666666
+Test set accuracy:  0.9773
+epoch:  19
+Training set accuracy:  0.98945
+Test set accuracy:  0.9776
+epoch:  20
+Training set accuracy:  0.98985
+Test set accuracy:  0.9778
+epoch:  21
+Training set accuracy:  0.9902833333333333
+Test set accuracy:  0.9779
+epoch:  22
+Training set accuracy:  0.9906166666666667
+Test set accuracy:  0.9776
+epoch:  23
+Training set accuracy:  0.9908666666666667
+Test set accuracy:  0.978
+epoch:  24
+Training set accuracy:  0.9912666666666666
+Test set accuracy:  0.9781
+epoch:  25
+Training set accuracy:  0.9915666666666667
+Test set accuracy:  0.978
+epoch:  26
+Training set accuracy:  0.9918166666666667
+Test set accuracy:  0.978
+epoch:  27
+Training set accuracy:  0.9920833333333333
+Test set accuracy:  0.9777
+epoch:  28
+Training set accuracy:  0.99225
+Test set accuracy:  0.9774
+epoch:  29
+Training set accuracy:  0.9924166666666666
+Test set accuracy:  0.9774
+epoch:  30
+Training set accuracy:  0.9926
+Test set accuracy:  0.9774
+epoch:  31
+Training set accuracy:  0.9928333333333333
+Test set accuracy:  0.9773
+epoch:  32
+Training set accuracy:  0.9929833333333333
+Test set accuracy:  0.9773
+epoch:  33
+Training set accuracy:  0.9930666666666667
+Test set accuracy:  0.9774
+epoch:  34
+Training set accuracy:  0.9931666666666666
+Test set accuracy:  0.9775
+epoch:  35
+Training set accuracy:  0.9932666666666666
+Test set accuracy:  0.9773
+epoch:  36
+Training set accuracy:  0.9934833333333334
+Test set accuracy:  0.9774
+epoch:  37
+Training set accuracy:  0.9936
+Test set accuracy:  0.9771
+epoch:  38
+Training set accuracy:  0.9936833333333334
+Test set accuracy:  0.9771
+epoch:  39
+Training set accuracy:  0.9937833333333334
+Test set accuracy:  0.977
+epoch:  40
+Training set accuracy:  0.9938833333333333
+Test set accuracy:  0.9771
+epoch:  41
+Training set accuracy:  0.99405
+Test set accuracy:  0.9772
+epoch:  42
+Training set accuracy:  0.99415
+Test set accuracy:  0.9771
+epoch:  43
+Training set accuracy:  0.9942666666666666
+Test set accuracy:  0.9772
+epoch:  44
+Training set accuracy:  0.9943666666666666
+Test set accuracy:  0.9774
+epoch:  45
+Training set accuracy:  0.9945333333333334
+Test set accuracy:  0.9774
+epoch:  46
+Training set accuracy:  0.99455
+Test set accuracy:  0.9774
+epoch:  47
+Training set accuracy:  0.9946166666666667
+Test set accuracy:  0.9773
+epoch:  48
+Training set accuracy:  0.9947
+Test set accuracy:  0.9771
+epoch:  49
+Training set accuracy:  0.9947
+Test set accuracy:  0.9771
+percent correct:  0.9947
+Confusion Matrix
+ [[5902    1    3    0    1    2    6    0    6    2]
+ [   1 6717    4    0    6    2    0    4    7    1]
+ [   3    6 5941    0    0    1    0    4    2    1]
+ [   1    2   13 6084    1    3    1    6   13    7]
+ [   1    9    3    0 5818    0    3    2    1    5]
+ [   3    2    4    4    1 5396    5    0    4    2]
+ [   5    3    0    0    1    7 5898    0    4    0]
+ [   2   15   18    0    7    1    4 6207    2    9]
+ [   3    8    3    2    0    3    3    0 5826    3]
+ [   5    5    1   10    7   14    0    9    5 5893]]
+Momentum = 0.25
+epoch:  0
+Training set accuracy:  0.9427
+Test set accuracy:  0.9423
+epoch:  1
+Training set accuracy:  0.9624333333333334
+Test set accuracy:  0.96
+epoch:  2
+Training set accuracy:  0.9706333333333333
+Test set accuracy:  0.9653
+epoch:  3
+Training set accuracy:  0.9751333333333333
+Test set accuracy:  0.9675
+epoch:  4
+Training set accuracy:  0.9782333333333333
+Test set accuracy:  0.969
+epoch:  5
+Training set accuracy:  0.9804666666666667
+Test set accuracy:  0.9706
+epoch:  6
+Training set accuracy:  0.9820333333333333
+Test set accuracy:  0.9714
+epoch:  7
+Training set accuracy:  0.9834333333333334
+Test set accuracy:  0.9714
+epoch:  8
+Training set accuracy:  0.9841833333333333
+Test set accuracy:  0.9714
+epoch:  9
+Training set accuracy:  0.9851333333333333
+Test set accuracy:  0.9717
+epoch:  10
+Training set accuracy:  0.9858166666666667
+Test set accuracy:  0.9725
+epoch:  11
+Training set accuracy:  0.9862
+Test set accuracy:  0.9725
+epoch:  12
+Training set accuracy:  0.9866166666666667
+Test set accuracy:  0.9728
+epoch:  13
+Training set accuracy:  0.98695
+Test set accuracy:  0.9732
+epoch:  14
+Training set accuracy:  0.9872833333333333
+Test set accuracy:  0.9735
+epoch:  15
+Training set accuracy:  0.9876166666666667
+Test set accuracy:  0.9737
+epoch:  16
+Training set accuracy:  0.9877666666666667
+Test set accuracy:  0.9735
+epoch:  17
+Training set accuracy:  0.9881666666666666
+Test set accuracy:  0.9736
+epoch:  18
+Training set accuracy:  0.98845
+Test set accuracy:  0.9735
+epoch:  19
+Training set accuracy:  0.9887
+Test set accuracy:  0.9736
+epoch:  20
+Training set accuracy:  0.989
+Test set accuracy:  0.9738
+epoch:  21
+Training set accuracy:  0.9892666666666666
+Test set accuracy:  0.9739
+epoch:  22
+Training set accuracy:  0.98945
+Test set accuracy:  0.9738
+epoch:  23
+Training set accuracy:  0.9896833333333334
+Test set accuracy:  0.9737
+epoch:  24
+Training set accuracy:  0.9898833333333333
+Test set accuracy:  0.9734
+epoch:  25
+Training set accuracy:  0.9902
+Test set accuracy:  0.9733
+epoch:  26
+Training set accuracy:  0.9904333333333334
+Test set accuracy:  0.9732
+epoch:  27
+Training set accuracy:  0.9906833333333334
+Test set accuracy:  0.9731
+epoch:  28
+Training set accuracy:  0.9909
+Test set accuracy:  0.9737
+epoch:  29
+Training set accuracy:  0.9911
+Test set accuracy:  0.9736
+epoch:  30
+Training set accuracy:  0.9913166666666666
+Test set accuracy:  0.9735
+epoch:  31
+Training set accuracy:  0.9913666666666666
+Test set accuracy:  0.9735
+epoch:  32
+Training set accuracy:  0.99155
+Test set accuracy:  0.9736
+epoch:  33
+Training set accuracy:  0.99175
+Test set accuracy:  0.9735
+epoch:  34
+Training set accuracy:  0.9919833333333333
+Test set accuracy:  0.9732
+epoch:  35
+Training set accuracy:  0.9922
+Test set accuracy:  0.9733
+epoch:  36
+Training set accuracy:  0.9923333333333333
+Test set accuracy:  0.9732
+epoch:  37
+Training set accuracy:  0.9925166666666667
+Test set accuracy:  0.9732
+epoch:  38
+Training set accuracy:  0.99255
+Test set accuracy:  0.9734
+epoch:  39
+Training set accuracy:  0.9925833333333334
+Test set accuracy:  0.9733
+epoch:  40
+Training set accuracy:  0.9927166666666667
+Test set accuracy:  0.973
+epoch:  41
+Training set accuracy:  0.9927666666666667
+Test set accuracy:  0.9732
+epoch:  42
+Training set accuracy:  0.99295
+Test set accuracy:  0.9732
+epoch:  43
+Training set accuracy:  0.99305
+Test set accuracy:  0.9729
+epoch:  44
+Training set accuracy:  0.9931333333333333
+Test set accuracy:  0.9725
+epoch:  45
+Training set accuracy:  0.9933
+Test set accuracy:  0.9725
+epoch:  46
+Training set accuracy:  0.9933833333333333
+Test set accuracy:  0.9722
+epoch:  47
+Training set accuracy:  0.9934166666666666
+Test set accuracy:  0.9721
+epoch:  48
+Training set accuracy:  0.9935833333333334
+Test set accuracy:  0.9723
+epoch:  49
+Training set accuracy:  0.9936666666666667
+Test set accuracy:  0.9722
+percent correct:  0.9936666666666667
+Confusion Matrix
+ [[5902    2    1    0    0    0    1    0   12    5]
+ [   0 6699   13    6    1    1    0    2   12    8]
+ [   3    3 5937    1    0    0    0    1    8    5]
+ [   0    0    1 6092    0    3    0    3   13   19]
+ [   2    7    3    1 5770    1    6    1    1   50]
+ [   7    5    2    1    0 5385    4    0    3   14]
+ [   6    6    0    0    0    6 5888    0   10    2]
+ [   1   12   19    1    2    1    0 6180    7   42]
+ [   1    9    0    0    0    0    0    0 5834    7]
+ [   5    0    0    0    2    1    1    1    6 5933]]
+Momentum = 0.5
+epoch:  0
+Training set accuracy:  0.9533666666666667
+Test set accuracy:  0.9527
+epoch:  1
+Training set accuracy:  0.9690333333333333
+Test set accuracy:  0.9657
+epoch:  2
+Training set accuracy:  0.976
+Test set accuracy:  0.9699
+epoch:  3
+Training set accuracy:  0.9793166666666666
+Test set accuracy:  0.9705
+epoch:  4
+Training set accuracy:  0.98125
+Test set accuracy:  0.9715
+epoch:  5
+Training set accuracy:  0.9830166666666666
+Test set accuracy:  0.9726
+epoch:  6
+Training set accuracy:  0.9845166666666667
+Test set accuracy:  0.9736
+epoch:  7
+Training set accuracy:  0.9856833333333334
+Test set accuracy:  0.9741
+epoch:  8
+Training set accuracy:  0.9866333333333334
+Test set accuracy:  0.9738
+epoch:  9
+Training set accuracy:  0.9874333333333334
+Test set accuracy:  0.9735
+epoch:  10
+Training set accuracy:  0.9881833333333333
+Test set accuracy:  0.9735
+epoch:  11
+Training set accuracy:  0.9888166666666667
+Test set accuracy:  0.9735
+epoch:  12
+Training set accuracy:  0.9893833333333333
+Test set accuracy:  0.9738
+epoch:  13
+Training set accuracy:  0.9900166666666667
+Test set accuracy:  0.9742
+epoch:  14
+Training set accuracy:  0.9904666666666667
+Test set accuracy:  0.9742
+epoch:  15
+Training set accuracy:  0.9909
+Test set accuracy:  0.9741
+epoch:  16
+Training set accuracy:  0.9913166666666666
+Test set accuracy:  0.9743
+epoch:  17
+Training set accuracy:  0.9915833333333334
+Test set accuracy:  0.9743
+epoch:  18
+Training set accuracy:  0.9920166666666667
+Test set accuracy:  0.9742
+epoch:  19
+Training set accuracy:  0.9922833333333333
+Test set accuracy:  0.9745
+epoch:  20
+Training set accuracy:  0.9925333333333334
+Test set accuracy:  0.9745
+epoch:  21
+Training set accuracy:  0.9927166666666667
+Test set accuracy:  0.9745
+epoch:  22
+Training set accuracy:  0.99285
+Test set accuracy:  0.9742
+epoch:  23
+Training set accuracy:  0.9930166666666667
+Test set accuracy:  0.974
+epoch:  24
+Training set accuracy:  0.9931333333333333
+Test set accuracy:  0.9742
+epoch:  25
+Training set accuracy:  0.9934333333333333
+Test set accuracy:  0.9743
+epoch:  26
+Training set accuracy:  0.9935833333333334
+Test set accuracy:  0.974
+epoch:  27
+Training set accuracy:  0.9937666666666667
+Test set accuracy:  0.9735
+epoch:  28
+Training set accuracy:  0.9938833333333333
+Test set accuracy:  0.9731
+epoch:  29
+Training set accuracy:  0.9940333333333333
+Test set accuracy:  0.9729
+epoch:  30
+Training set accuracy:  0.9941333333333333
+Test set accuracy:  0.9731
+epoch:  31
+Training set accuracy:  0.9942666666666666
+Test set accuracy:  0.9732
+epoch:  32
+Training set accuracy:  0.9944
+Test set accuracy:  0.9729
+epoch:  33
+Training set accuracy:  0.9945333333333334
+Test set accuracy:  0.9728
+epoch:  34
+Training set accuracy:  0.9946333333333334
+Test set accuracy:  0.9726
+epoch:  35
+Training set accuracy:  0.9947
+Test set accuracy:  0.9727
+epoch:  36
+Training set accuracy:  0.9947666666666667
+Test set accuracy:  0.9728
+epoch:  37
+Training set accuracy:  0.9948666666666667
+Test set accuracy:  0.9728
+epoch:  38
+Training set accuracy:  0.9949666666666667
+Test set accuracy:  0.9728
+epoch:  39
+Training set accuracy:  0.9949666666666667
+Test set accuracy:  0.9728
+epoch:  40
+Training set accuracy:  0.9950666666666667
+Test set accuracy:  0.9728
+epoch:  41
+Training set accuracy:  0.9951333333333333
+Test set accuracy:  0.9729
+epoch:  42
+Training set accuracy:  0.99515
+Test set accuracy:  0.9728
+epoch:  43
+Training set accuracy:  0.9952666666666666
+Test set accuracy:  0.9726
+epoch:  44
+Training set accuracy:  0.9953
+Test set accuracy:  0.9725
+epoch:  45
+Training set accuracy:  0.9953333333333333
+Test set accuracy:  0.9724
+epoch:  46
+Training set accuracy:  0.9954333333333333
+Test set accuracy:  0.9724
+epoch:  47
+Training set accuracy:  0.9955166666666667
+Test set accuracy:  0.9724
+epoch:  48
+Training set accuracy:  0.9955833333333334
+Test set accuracy:  0.9726
+epoch:  49
+Training set accuracy:  0.9957
+Test set accuracy:  0.9725
+percent correct:  0.9957
+Confusion Matrix
+ [[5914    0    0    0    0    1    5    0    3    0]
+ [   1 6723    1    3    1    1    2    2    6    2]
+ [   2    3 5946    5    0    0    0    1    1    0]
+ [   0    0    2 6117    0    1    0    2    3    6]
+ [   5   10    4    2 5796    0    7    1    1   16]
+ [   1    1    1    8    1 5396    7    0    5    1]
+ [   4    2    0    0    1    0 5910    0    1    0]
+ [   3    8   10    6    0    0    1 6223    1   13]
+ [   6   17    2    9    0    1    6    0 5804    6]
+ [   7    1    2   13    3    2    2    4    2 5913]]
+Experiment 3
+Using 25.0% of training data
+epoch:  0
+Training set accuracy:  0.9590666666666666
+Test set accuracy:  0.9585
+epoch:  1
+Training set accuracy:  0.9675166666666667
+Test set accuracy:  0.9617
+epoch:  2
+Training set accuracy:  0.9737833333333333
+Test set accuracy:  0.9673
+epoch:  3
+Training set accuracy:  0.97665
+Test set accuracy:  0.9684
+epoch:  4
+Training set accuracy:  0.9790333333333333
+Test set accuracy:  0.9702
+epoch:  5
+Training set accuracy:  0.9814333333333334
+Test set accuracy:  0.9697
+epoch:  6
+Training set accuracy:  0.9828
+Test set accuracy:  0.9705
+epoch:  7
+Training set accuracy:  0.9835833333333334
+Test set accuracy:  0.9703
+epoch:  8
+Training set accuracy:  0.9849
+Test set accuracy:  0.971
+epoch:  9
+Training set accuracy:  0.9859
+Test set accuracy:  0.9702
+epoch:  10
+Training set accuracy:  0.9866166666666667
+Test set accuracy:  0.9701
+epoch:  11
+Training set accuracy:  0.9869666666666667
+Test set accuracy:  0.9709
+epoch:  12
+Training set accuracy:  0.9871166666666666
+Test set accuracy:  0.9705
+epoch:  13
+Training set accuracy:  0.98755
+Test set accuracy:  0.9708
+epoch:  14
+Training set accuracy:  0.9881
+Test set accuracy:  0.9702
+epoch:  15
+Training set accuracy:  0.9886833333333334
+Test set accuracy:  0.9696
+epoch:  16
+Training set accuracy:  0.98885
+Test set accuracy:  0.9696
+epoch:  17
+Training set accuracy:  0.9894333333333334
+Test set accuracy:  0.9702
+epoch:  18
+Training set accuracy:  0.9889833333333333
+Test set accuracy:  0.97
+epoch:  19
+Training set accuracy:  0.9896833333333334
+Test set accuracy:  0.9701
+epoch:  20
+Training set accuracy:  0.9900666666666667
+Test set accuracy:  0.9696
+epoch:  21
+Training set accuracy:  0.9901
+Test set accuracy:  0.9689
+epoch:  22
+Training set accuracy:  0.9904
+Test set accuracy:  0.97
+epoch:  23
+Training set accuracy:  0.99065
+Test set accuracy:  0.9702
+epoch:  24
+Training set accuracy:  0.9907166666666667
+Test set accuracy:  0.9696
+epoch:  25
+Training set accuracy:  0.9910166666666667
+Test set accuracy:  0.969
+epoch:  26
+Training set accuracy:  0.9910666666666667
+Test set accuracy:  0.9691
+epoch:  27
+Training set accuracy:  0.9912833333333333
+Test set accuracy:  0.9683
+epoch:  28
+Training set accuracy:  0.9913666666666666
+Test set accuracy:  0.9683
+epoch:  29
+Training set accuracy:  0.9916666666666667
+Test set accuracy:  0.9689
+epoch:  30
+Training set accuracy:  0.9916666666666667
+Test set accuracy:  0.9678
+epoch:  31
+Training set accuracy:  0.9919
+Test set accuracy:  0.969
+epoch:  32
+Training set accuracy:  0.9920333333333333
+Test set accuracy:  0.9686
+epoch:  33
+Training set accuracy:  0.99225
+Test set accuracy:  0.9688
+epoch:  34
+Training set accuracy:  0.9923833333333333
+Test set accuracy:  0.9684
+epoch:  35
+Training set accuracy:  0.9926666666666667
+Test set accuracy:  0.9687
+epoch:  36
+Training set accuracy:  0.9927333333333334
+Test set accuracy:  0.9688
+epoch:  37
+Training set accuracy:  0.9928166666666667
+Test set accuracy:  0.9693
+epoch:  38
+Training set accuracy:  0.99285
+Test set accuracy:  0.9699
+epoch:  39
+Training set accuracy:  0.9927333333333334
+Test set accuracy:  0.9688
+epoch:  40
+Training set accuracy:  0.9929
+Test set accuracy:  0.9686
+epoch:  41
+Training set accuracy:  0.9932666666666666
+Test set accuracy:  0.9687
+epoch:  42
+Training set accuracy:  0.99335
+Test set accuracy:  0.9683
+epoch:  43
+Training set accuracy:  0.9933
+Test set accuracy:  0.9674
+epoch:  44
+Training set accuracy:  0.9933666666666666
+Test set accuracy:  0.9679
+epoch:  45
+Training set accuracy:  0.9933333333333333
+Test set accuracy:  0.9675
+epoch:  46
+Training set accuracy:  0.99365
+Test set accuracy:  0.9674
+epoch:  47
+Training set accuracy:  0.9937666666666667
+Test set accuracy:  0.9671
+epoch:  48
+Training set accuracy:  0.9937
+Test set accuracy:  0.9662
+epoch:  49
+Training set accuracy:  0.9939333333333333
+Test set accuracy:  0.9664
+percent correct:  0.9939333333333333
+Confusion Matrix
+ [[5893    0    4    1    0    0    6    1    5   13]
+ [   1 6704   16    3    7    1    1    4    4    1]
+ [   5    4 5931    5    2    0    2    2    1    6]
+ [   0    1    7 6097    3    3    0    5    7    8]
+ [   2    1    3    0 5822    0    1    2    0   11]
+ [   3    1    5    7    0 5395    0    0    4    6]
+ [   7    0    1    1    3   10 5895    0    1    0]
+ [   0    4    8    0    1    0    0 6245    0    7]
+ [  15   19    1   13    9   21   13    1 5744   15]
+ [   5    1    0   16    8    4    0    3    2 5910]]
+Using 50.0% of training data
+epoch:  0
+Training set accuracy:  0.95505
+Test set accuracy:  0.9526
+epoch:  1
+Training set accuracy:  0.96655
+Test set accuracy:  0.9611
+epoch:  2
+Training set accuracy:  0.9721333333333333
+Test set accuracy:  0.9641
+epoch:  3
+Training set accuracy:  0.9772833333333333
+Test set accuracy:  0.9682
+epoch:  4
+Training set accuracy:  0.9786166666666667
+Test set accuracy:  0.9686
+epoch:  5
+Training set accuracy:  0.9799333333333333
+Test set accuracy:  0.9678
+epoch:  6
+Training set accuracy:  0.9812666666666666
+Test set accuracy:  0.9673
+epoch:  7
+Training set accuracy:  0.9833833333333334
+Test set accuracy:  0.9687
+epoch:  8
+Training set accuracy:  0.9840333333333333
+Test set accuracy:  0.9681
+epoch:  9
+Training set accuracy:  0.9838166666666667
+Test set accuracy:  0.9668
+epoch:  10
+Training set accuracy:  0.9842166666666666
+Test set accuracy:  0.9671
+epoch:  11
+Training set accuracy:  0.9852833333333333
+Test set accuracy:  0.967
+epoch:  12
+Training set accuracy:  0.9872
+Test set accuracy:  0.9668
+epoch:  13
+Training set accuracy:  0.9874
+Test set accuracy:  0.9672
+epoch:  14
+Training set accuracy:  0.9864333333333334
+Test set accuracy:  0.9669
+epoch:  15
+Training set accuracy:  0.9866
+Test set accuracy:  0.967
+epoch:  16
+Training set accuracy:  0.98695
+Test set accuracy:  0.9663
+epoch:  17
+Training set accuracy:  0.98765
+Test set accuracy:  0.967
+epoch:  18
+Training set accuracy:  0.9879833333333333
+Test set accuracy:  0.9657
+epoch:  19
+Training set accuracy:  0.98845
+Test set accuracy:  0.9654
+epoch:  20
+Training set accuracy:  0.9888833333333333
+Test set accuracy:  0.9649
+epoch:  21
+Training set accuracy:  0.9892
+Test set accuracy:  0.9646
+epoch:  22
+Training set accuracy:  0.9895333333333334
+Test set accuracy:  0.964
+epoch:  23
+Training set accuracy:  0.9893333333333333
+Test set accuracy:  0.9637
+epoch:  24
+Training set accuracy:  0.9896166666666667
+Test set accuracy:  0.965
+epoch:  25
+Training set accuracy:  0.9895166666666667
+Test set accuracy:  0.9642
+epoch:  26
+Training set accuracy:  0.9900333333333333
+Test set accuracy:  0.9636
+epoch:  27
+Training set accuracy:  0.98995
+Test set accuracy:  0.9646
+epoch:  28
+Training set accuracy:  0.9902833333333333
+Test set accuracy:  0.9645
+epoch:  29
+Training set accuracy:  0.9906
+Test set accuracy:  0.9649
+epoch:  30
+Training set accuracy:  0.9908
+Test set accuracy:  0.965
+epoch:  31
+Training set accuracy:  0.9906333333333334
+Test set accuracy:  0.9642
+epoch:  32
+Training set accuracy:  0.991
+Test set accuracy:  0.9641
+epoch:  33
+Training set accuracy:  0.9913833333333333
+Test set accuracy:  0.9641
+epoch:  34
+Training set accuracy:  0.99115
+Test set accuracy:  0.9635
+epoch:  35
+Training set accuracy:  0.99155
+Test set accuracy:  0.9644
+epoch:  36
+Training set accuracy:  0.9916833333333334
+Test set accuracy:  0.9639
+epoch:  37
+Training set accuracy:  0.99195
+Test set accuracy:  0.9647
+epoch:  38
+Training set accuracy:  0.9910833333333333
+Test set accuracy:  0.9628
+epoch:  39
+Training set accuracy:  0.99185
+Test set accuracy:  0.9639
+epoch:  40
+Training set accuracy:  0.99225
+Test set accuracy:  0.9638
+epoch:  41
+Training set accuracy:  0.9919333333333333
+Test set accuracy:  0.963
+epoch:  42
+Training set accuracy:  0.992
+Test set accuracy:  0.963
+epoch:  43
+Training set accuracy:  0.9922333333333333
+Test set accuracy:  0.9627
+epoch:  44
+Training set accuracy:  0.9924833333333334
+Test set accuracy:  0.9632
+epoch:  45
+Training set accuracy:  0.9922833333333333
+Test set accuracy:  0.963
+epoch:  46
+Training set accuracy:  0.9925
+Test set accuracy:  0.9634
+epoch:  47
+Training set accuracy:  0.9928333333333333
+Test set accuracy:  0.9631
+epoch:  48
+Training set accuracy:  0.99285
+Test set accuracy:  0.9624
+epoch:  49
+Training set accuracy:  0.99295
+Test set accuracy:  0.9627
+percent correct:  0.99295
+Confusion Matrix
+ [[5913    0    3    0    3    2    2    0    0    0]
+ [   0 6719    6    1    6    1    1    2    2    4]
+ [   6    7 5939    1    0    0    0    4    0    1]
+ [   9    4    8 6081    0    7    1    6    4   11]
+ [   3    5    3    0 5802    0    1    1    0   27]
+ [   3    0    6    2    0 5399    5    1    2    3]
+ [   5    1    0    0    1   13 5898    0    0    0]
+ [   0    5    8    1    4    0    0 6237    0   10]
+ [  19   38   16    5    9   26   13    6 5681   38]
+ [   8    3    3    9    5    7    2    3    1 5908]]
