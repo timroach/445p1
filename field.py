@@ -239,7 +239,7 @@ def main():
         network = NeuralNetwork(100, 0.9, 0.1, percentage)
         network.train(50, confmatrix=True)
 
-    sys.exit("Done")
+    sys.exit(0)
 
 
 if __name__ == "__main__":
